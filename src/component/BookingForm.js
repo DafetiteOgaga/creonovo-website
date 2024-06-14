@@ -28,6 +28,10 @@ const Label = styled.label`
 		font-size: 110%;
 		// padding-right: ${ ({$diff}) => ( $diff ? '11%' : '3%' )};
 	}
+	@media (min-width: 1024px) {
+		font-size: 130%;
+		padding-right: ${ ({$diff}) => ( $diff ? '12%' : '3%' )};
+	}
 	// @media (max-width: 1266px) {
 	// 	font-size: 105%;
 	// }

@@ -28,6 +28,14 @@ const LogoImage = styled.img`
 		// padding-top: 3.5%;
 		height: 65px;
 	}
+	@media (min-width: 1024px) {
+		// padding-top: 3.5%;
+		height: 70px;
+	}
+	@media (min-width: 1200px) {
+		// padding-top: 3.5%;
+		height: 80px;
+	}
 	// @media (max-width: 740px) {
 	// 	padding-top: 4%;
 	// }

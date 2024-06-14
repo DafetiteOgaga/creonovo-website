@@ -103,6 +103,10 @@ const Background = styled.div`
 		padding-bottom: ${ ({$booking}) => $booking ? '0' : '2%' };
 		margin-bottom: 8%;
 	}
+	@media (min-width: 1024px) {
+		padding-bottom: 0;
+		margin-bottom: 10%;
+	}
 	// @media (min-width: 768px) {
 	// 	margin-bottom: 6%;
 	// }
