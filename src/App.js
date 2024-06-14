@@ -28,13 +28,13 @@ const MainContainer = styled.main`
 const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   padding-top: 1%;
   padding-bottom: 1%;
 
-  @media (max-width: 320px) {
-    flex-direction: column;
-    place-items: center;
+  @media (min-width: 480px) {
+    flex-direction: row;
   }
   // @media (max-width: 1000px) {
   //   flex-direction: column;

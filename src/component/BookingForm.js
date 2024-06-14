@@ -2,7 +2,11 @@ import { useState, useContext, useEffect } from "react";
 import styled from 'styled-components';
 import { BookingContext } from './BookingContext';
 
-const FormStyle = styled.form``
+const FormStyle = styled.form`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+`
 const Input = styled.input`
 	color: #444645;
 	width: 40%;
@@ -18,11 +22,12 @@ const Input = styled.input`
 const Label = styled.label`
 	color: #444645;
 	font-size: 85%;
-	padding-right: ${ ({$diff}) => ( $diff ? '6%' : '3%' )};
+	padding-right: ${ ({$diff}) => ( $diff ? '11.8%' : '3%' )};
 
-	// @media (max-width: 1266px) {
-	// 	font-size: 125%;
-	// }
+	@media (min-width: 768px) {
+		font-size: 110%;
+		// padding-right: ${ ({$diff}) => ( $diff ? '11%' : '3%' )};
+	}
 	// @media (max-width: 1266px) {
 	// 	font-size: 105%;
 	// }
@@ -38,19 +43,31 @@ const Label = styled.label`
 `
 const FlexContainer = styled.div`
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	gap: 4%;
-	padding-left: 5%;
-	padding-right: 5%;
+	// flex-direction: row;
+	flex-direction: column;
+	// justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: center;
+	// gap: 4%;
+	padding-left: 2%;
+	padding-right: 2%;
 	margin-bottom: 1%;
 `
 const RadioContainer = styled.div`
 	display: flex;
 	flex-direction: column;
-	padding-top: 3%;
+	padding: 3% 0;
+	padding-right: 50%;
+
+	@media (min-width: 480px) {
+		padding-right: 60%;
+	}
+	@media (min-width: 768px) {
+		padding-right: 52%;
+	}
 `
 const RadioInnerDiv = styled.div`
+	display: flex;
 	padding-bottom: 3%;
 `
 const ButtonContainer = styled.div`
@@ -59,8 +76,8 @@ const ButtonContainer = styled.div`
 	padding-top: 3%;
 `
 const ButtonBox = styled.div`
-	height: 18%;
-	width: 55%;
+	height: auto;
+	width: auto;
 	padding-top: 1.8%;
 	padding-bottom: 1.8%;
 `
@@ -69,15 +86,16 @@ const Background = styled.div`
 	background-color: #008080;
 	display: flex;
 	flex-direction: column;
+	// align-items: center;
 	border-radius: 0.94rem;
-	padding: 2% 0%;
 	padding-top: 4%;
+	// margin-left: 3%;
 	margin-bottom: 2%;
+	width: 85%;
 
-	// @media (max-width: 740px) {
-	// 	padding-top: 4%;
-	// 	padding-bottom: 0;
-	// }
+	@media (min-width: 768px) {
+		width: 70%;
+	}
 	// @media (max-width: 480px) {
 	// 	padding-top: 4%;
 	// 	padding-bottom: 4%;
@@ -85,10 +103,12 @@ const Background = styled.div`
 `
 const LightBackground = styled.div`
 	background-color: #EDEFEE;
-	padding: 2%;
+	padding: 1%;
+	margin-bottom: .3rem;
 	border-radius: 0.3rem;
 	display: flex;
-	width: 100%;
+	justify-content: center;
+	width: 95%;
 `
 const initValues = {
 	firstname: "",
@@ -256,6 +276,7 @@ export default function BookingForm (props) {
 							<LightBackground className="LightBackground">
 								<Label htmlFor="occasion">Occasion:</Label>
 								<select
+									className="head3"
 									aria-label="On Click"
 									id="occasion"
 									name="occasion"
