@@ -17,12 +17,12 @@ const Anchor = styled.li`
 export default function Navigation () {
 	return (
 		<>
-			<Navigations>
-				<Anchor><Link to="/" className='head3'>Home</Link></Anchor>
-				<Anchor><Link to="/booking-page" className='head3'>Bookings</Link></Anchor>
-				<Anchor><Link to="/about" className='head3'>About</Link></Anchor>
-				<Anchor><Link to="/testimonial" className='head3'>Testimonial</Link></Anchor>
-				<Anchor><Link to="/contact" className='head3'>Contact</Link></Anchor>
+			<Navigations className='head3'>
+				<Anchor><Link to="/">Home</Link></Anchor>
+				<Anchor><Link to="/booking-page">Bookings</Link></Anchor>
+				<Anchor><Link to="/about">About</Link></Anchor>
+				<Anchor><Link to="/testimonial">Testimonial</Link></Anchor>
+				<Anchor><Link to="/contact">Contact</Link></Anchor>
 			</Navigations>
 		</>
 	)

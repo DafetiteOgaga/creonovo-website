@@ -1,18 +1,21 @@
 .App {
-  padding-left: 13%;
-  padding-right: 13%;
+  /* padding-left: 13%;
+  padding-right: 13%; */
+	padding-left: 3%;
+	padding-right: 3%;
+	
 
-  @media (max-width: 320px) {
-    padding-left: 2%;
-  	padding-right: 2%;
-  }
+	@media (min-width: 480px) {
+		padding-left: 6%;
+		padding-right: 6%;
+	}
 }
 
 .barBar {
 	background-color: hwb(180 94% 4%);
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -21,9 +24,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -32,7 +35,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -43,7 +46,7 @@
   background-color: #008080;
 	padding-bottom: 3%;
 	justify-content: center;
-
+/* 
 	@media (max-width: 1000px) {
 		padding-bottom:0;
 	}
@@ -54,7 +57,7 @@
 	@media (max-width: 480px) {
 		padding-top: 4%;
 		padding-bottom: 4%;
-	}
+	} */
 }
 
 .head1 {
@@ -62,6 +65,16 @@
 	font-size: 100%;
 	margin-top: 0;
 
+	@media (min-width: 480px) {
+		font-size: 120%;
+	}
+	@media (min-width: 768px) {
+		font-size: 200%;
+	}
+
+	/* @media (min-width: 479px) {
+		font-size: 110%;
+	} */
 	/* @media (max-width: 1000px) {
 		font-size: 175%;
 	}
@@ -75,9 +88,15 @@
 
 .head2 {
 	color: #444645;
-	font-size: 70%;
+	font-size: 60%;
 	margin-top: 0;
 
+	@media (min-width: 480px) {
+		font-size: 70%;
+	}
+	@media (min-width: 768px) {
+		font-size: 120%;
+	}
 	/* @media (max-width: 1000px) {
 		font-size: 120%;
 	}
@@ -96,8 +115,15 @@
 	color: #444645;
 }
 
-.head3, .head3 h3 {
+.head3, .head3 h3, div input, .head3 option {
 	font-size: 68%;
+
+	@media (min-width: 480px) {
+		font-size: 80%;
+	}
+	@media (min-width: 768px) {
+		font-size: 100%;
+	}
 	/* @media (max-width: 1120px) {
 		font-size: 95%;
 	}
@@ -133,47 +159,23 @@
 	font-size: 50%;
 	margin-top: 0;
 	margin-bottom: 4%;
-	/* @media (max-width: 1310px) {
-		font-size: 90%;
-	}
-	@media (max-width: 1170px) {
-		font-size: 85%;
-	}
-	@media (max-width: 1000px) {
-		font-size: 80%;
-	}
-	@media (max-width: 824px) {
-		font-size: 75%;
-	}
-	@media (max-width: 760px) {
+	@media (min-width: 480px) {
 		font-size: 65%;
 	}
-	@media (max-width: 710px) {
-		font-size: 62%;
+	@media (min-width: 768px) {
+		font-size: 95%;
 	}
-	@media (max-width: 629px) {
-		font-size: 55%;
-	}
-	@media (max-width: 583px) {
-		font-size: 48%;
-	}
-	@media (max-width: 513px) {
-		font-size: 43%;
-	}
-	@media (max-width: 480px) {
-		font-size: 40%;
-	}
-	@media (max-width: 450px) {
-		font-size: 38%;
-	} */
 }
 
 .hero-image, .form-image {
-  width: 55%;
-	height: 77%;
+  width: 70%;
+	height: 85%;
 	border-radius: 10%;
 
-	@media (max-width: 1266px) {
+	@media (min-width: 768px) {
+		height: 80%;
+	}
+	/* @media (max-width: 1266px) {
 		height: 75%;
 		width: 60%;
 	}
@@ -213,13 +215,19 @@
 	}
 	@media (max-width: 480px) {
 		height: 85%;
-	}
+	} */
 }
 
 .about-image {
-	height: 140%;
+	height: 68%;
 
-	@media (max-width: 1310px) {
+	@media (min-width: 480px) {
+		height: 71%;
+	}
+	@media (min-width: 768px) {
+		height: 78%;
+	}
+	/* @media (max-width: 1310px) {
 		height: 120%;
 	}
 	@media (max-width: 1300px) {
@@ -245,35 +253,33 @@
 	}
 	@media (max-width: 719px) {
 		height: 90%;
-	}
+	} */
 }
 
 .form-page {
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 11%;
+  padding-right: 11%;
   padding-top: 3%;
 }
 
 .form-page .FlexContainer {
-  @media (max-width: 1266px) {
-    /* flex container */
+  /* @media (max-width: 1266px) {
 	flex-direction: column;
     padding-top: 5%;
-  }
-  @media (max-width: 710px) {
+  } */
+  /* @media (max-width: 710px) {
     padding-top: 2%;
   }
   @media (max-width: 634px) {
     padding-top: 0%;
-  }
+  } */
 }
 .form-page .LightBackground {
-	@media (max-width: 1266px) {
+	/* @media (max-width: 1266px) {
 		justify-content: center;
 		width: 96%;
-		/* height: 1%; */
 		margin-bottom: 2%;
-	}
+	} */
   /* @media (max-width: 1266px) {
     justify-content: center;
 	width: 96%;
@@ -370,6 +376,13 @@
 	cursor: pointer;
 	/* Add transition for smooth effect */
 	transition: color 0.3s, opacity 0.01s;
+
+	@media (min-width: 480px) {
+		font-size: 75%;
+	}
+	@media (min-width: 768px) {
+		font-size: 110%;
+	}
 
 	&:disabled {
 		/* Faded color */

@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 const specials = [
 	{
 		image: afangSoup,
-		name: "afang Soup",
+		name: "Afang Soup",
 		price: 450,
 		description: `Afang soup is a traditional Nigerian dish
 						originating from the Efik and Ibibio people of
@@ -38,8 +38,7 @@ const specials = [
 						originates from the Efik and Ibibio people of
 						Cross River and Akwa Ibom states. It is a rich,
 						flavorful, and nutritious soup, known for its
-						distinctive aroma and taste, which comes from
-						the Atama leaves used in its preparation.`,
+						distinctive aroma and taste`,
 		delivery: "Order a delivery",
 	},
 ]

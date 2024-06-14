@@ -14,11 +14,14 @@ const HeaderContainer = styled.div`
 	// }
 `
 const LogoImage = styled.img`
-	height: 80px;
+	height: 2.5rem;
 
-	@media (max-width: 320px) {
-		height: 2rem;
-	  }
+	@media (min-width: 480px) {
+		height: 3rem;
+	}
+	@media (min-width: 768px) {
+		height: 4rem;
+	}
 
 	// @media (max-width: 1000px) {
 	// 	height: 650px;

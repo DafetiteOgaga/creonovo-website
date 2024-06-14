@@ -6,6 +6,7 @@ const FooterContainer = styled.footer`
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	padding: 0 1.5rem;
 	padding-top: 2rem;
 	gap: 2%;
 `
@@ -13,35 +14,27 @@ const GridContainer = styled.div`
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	padding: 0 2.6%;
-
-	@media (max-width: 1000px) {
-		font-size: 0.875rem;
-		padding: 2.4%;
-	}
-	@media (max-width: 580px) {
-		font-size: 0.75rem;
-		padding: 2%;
-	}
-	@media (max-width: 480px) {
-		font-size: 0.75rem;
-		padding: 2%;
-	}
+	font-size: 90%;
 `
 const LogoImage = styled.img`
 	padding-top: 1.5%;
-	height: 90px;
+	height: 40px;
 
-	@media (max-width: 1000px) {
-		padding-top: 3.5%;
-		height: 48px;
+	@media (min-width: 480px) {
+		// padding-top: 3.5%;
+		height: 46px;
 	}
-	@media (max-width: 740px) {
-		padding-top: 4%;
+	@media (min-width: 768px) {
+		// padding-top: 3.5%;
+		height: 65px;
 	}
-	@media (max-width: 480px) {
-		padding-top: 3%;
-		height: 28px;
-	}
+	// @media (max-width: 740px) {
+	// 	padding-top: 4%;
+	// }
+	// @media (max-width: 480px) {
+	// 	padding-top: 3%;
+	// 	height: 28px;
+	// }
 `
 export default function Footer () {
 	return (

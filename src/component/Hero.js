@@ -39,14 +39,14 @@ const CenterImage = styled.div`
 `
 const Head1 = styled.h1`
 	color: ${ ({$booking}) => $booking ? 'white' : '#F4CE14' };
-	font-size: ${ ({$booking}) => $booking ? '100%' : '100%' };
+	// font-size: ${ ({$booking}) => $booking ? '100%' : '100%' };
 	text-align: ${ ({$booking}) => $booking ? 'center' : 'left' };
 	padding-bottom: ${ ({$booking}) => $booking ? '4.5%' : '0' };
 	padding-top: ${ ({$booking}) => $booking ? '2%' : '0' };
 	margin-bottom: 0;
 
-	// @media (max-width: 1000px) {
-	// 	font-size: ${ ({$booking}) => $booking ? '240%' : '175%' };
+	// @media (min-width: 768px) {
+	// 	font-size: ${ ({$booking}) => $booking ? '120%' : '120%' };
 	// }
 	// @media (max-width: 740px) {
 	// 	font-size: ${ ({$booking}) => $booking ? '240%' : '140%' };
@@ -62,12 +62,12 @@ const Head1 = styled.h1`
 	// }
 `
 const Head2 = styled.h2`
-	font-size: 60%;
+	// font-size: 60%;
 	margin-bottom: ${ ({$booking}) => $booking ? '0' : '0' };
 	color: white;
 
-	// @media (max-width: 1000px) {
-	// 	font-size: 120%;
+	// @media (min-width: 480px) {
+	// 	font-size: 70%;
 	// }
 	// @media (max-width: 740px) {
 	// 	font-size: 100%;
@@ -99,8 +99,12 @@ const Background = styled.div`
 	padding-bottom: ${ ({$booking}) => $booking ? '0' : '7%' };
 	margin-bottom: 6%;
 
-	// @media (max-width: 1266px) {
-	// 	padding-bottom: 4%;
+	@media (min-width: 768px) {
+		padding-bottom: ${ ({$booking}) => $booking ? '0' : '2%' };
+		margin-bottom: 8%;
+	}
+	// @media (min-width: 768px) {
+	// 	margin-bottom: 6%;
 	// }
 	// @media (max-width: 1152px) {
 	// 	padding-bottom: 6%;
