@@ -1,6 +1,11 @@
 .App {
   padding-left: 13%;
   padding-right: 13%;
+
+  @media (max-width: 320px) {
+    padding-left: 2%;
+  	padding-right: 2%;
+  }
 }
 
 .barBar {
@@ -54,10 +59,10 @@
 
 .head1 {
 	color: #444645;
-	font-size: 250%;
+	font-size: 100%;
 	margin-top: 0;
 
-	@media (max-width: 1000px) {
+	/* @media (max-width: 1000px) {
 		font-size: 175%;
 	}
 	@media (max-width: 740px) {
@@ -65,14 +70,15 @@
 	}
 	@media (max-width: 480px) {
 		font-size: 100%;
-	}
+	} */
 }
 
 .head2 {
 	color: #444645;
+	font-size: 70%;
 	margin-top: 0;
 
-	@media (max-width: 1000px) {
+	/* @media (max-width: 1000px) {
 		font-size: 120%;
 	}
 	@media (max-width: 740px) {
@@ -83,7 +89,7 @@
 	}
 	@media (max-width: 480px) {
 		font-size: 70%;
-	}
+	} */
 }
 
 .color, .color h3{
@@ -91,7 +97,8 @@
 }
 
 .head3, .head3 h3 {
-	@media (max-width: 1120px) {
+	font-size: 68%;
+	/* @media (max-width: 1120px) {
 		font-size: 95%;
 	}
 	@media (max-width: 1000px) {
@@ -114,12 +121,19 @@
 	}
 	@media (max-width: 400px) {
 		font-size: 45%;
-	}
+	} */
+}
+
+.head4 {
+	font-size: 55%;
 }
 
 .paragraph {
 	color: #444645;
-	@media (max-width: 1310px) {
+	font-size: 50%;
+	margin-top: 0;
+	margin-bottom: 4%;
+	/* @media (max-width: 1310px) {
 		font-size: 90%;
 	}
 	@media (max-width: 1170px) {
@@ -151,7 +165,7 @@
 	}
 	@media (max-width: 450px) {
 		font-size: 38%;
-	}
+	} */
 }
 
 .hero-image, .form-image {
@@ -235,8 +249,8 @@
 }
 
 .form-page {
-  padding-left: 18%;
-  padding-right: 18%;
+  padding-left: 15%;
+  padding-right: 15%;
   padding-top: 3%;
 }
 
@@ -254,10 +268,15 @@
   }
 }
 .form-page .LightBackground {
-  @media (max-width: 1266px) {
-    /* light background */
-    justify-content: center;
+	@media (max-width: 1266px) {
+		justify-content: center;
 		width: 96%;
+		/* height: 1%; */
+		margin-bottom: 2%;
+	}
+  /* @media (max-width: 1266px) {
+    justify-content: center;
+	width: 96%;
     margin-bottom: 5%;
   }
   @media (max-width: 816px) {
@@ -265,11 +284,10 @@
   }
   @media (max-width: 710px) {
     margin-bottom: 1.5%;
-  }
+  } */
 }
 .form-page .Background {
-	@media (max-width: 1266px) {
-	/* background */
+	/* @media (max-width: 1266px) {
 	margin: 0% 10%;
 	margin-bottom: 5%;
 	}
@@ -283,11 +301,10 @@
 	}
 	@media (max-width: 710px) {
 	margin: 0% 2%;
-	}
+	} */
 }
 .form-page .RadioContainer {
-	@media (max-width: 1266px) {
-	/* RadioContainer */
+	/* @media (max-width: 1266px) {
 		padding-left: 10%;
 	}
 		@media (max-width: 816px) {
@@ -298,7 +315,7 @@
 	}
 	@media (max-width: 584px) {
 		padding-left: 2%;
-	}
+	} */
 }
 
 .botton-box {
@@ -309,8 +326,10 @@
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+	/* height: 9%; */
+	/* width: 45%; */
 
-	@media (max-width: 1221px) {
+	/* @media (max-width: 1221px) {
 		height: 9%;
 		width: 45%;
 	}
@@ -330,7 +349,7 @@
 	}
 	@media (max-width: 480px) {
 		height: 10%;
-	}
+	} */
 
 	&:hover {
 		background-color: #fddd50;
@@ -345,7 +364,7 @@
 	background-color: transparent;
 	font-weight: 900;
 	border-style: hidden;
-	font-size: 130%;
+	font-size: 61%;
 	text-align: center;
 	display: inline-flex;
 	cursor: pointer;
@@ -361,7 +380,7 @@
 		opacity: 0.5;
 	}
 
-	@media (max-width: 1226px) {
+	/* @media (max-width: 1226px) {
 			font-size: 110%;
 	}
 	@media (max-width: 1053px) {
@@ -390,7 +409,7 @@
 	}
 	@media (max-width: 484px) {
 		font-size: 40%;
-	}
+	} */
 
 	&:active {
 		color: white

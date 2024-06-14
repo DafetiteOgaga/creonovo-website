@@ -5,34 +5,36 @@ import { BookingContext } from './BookingContext';
 const FormStyle = styled.form``
 const Input = styled.input`
 	color: #444645;
-	@media (max-width: 1266px) {
-		width: 50%;
-	}
-	@media (max-width: 584px) {
-		width: 40%;
-		height: 50%;
-	}
+	width: 40%;
+	// height: 30%;
+	// @media (max-width: 1266px) {
+	// 	width: 50%;
+	// }
+	// @media (max-width: 584px) {
+	// 	width: 40%;
+	// 	height: 50%;
+	// }
 `
 const Label = styled.label`
 	color: #444645;
-	font-size: 140%;
-	padding-right: ${ ({$diff}) => ( $diff ? '4.3%' : '3%' )};
+	font-size: 85%;
+	padding-right: ${ ({$diff}) => ( $diff ? '6%' : '3%' )};
 
-	@media (max-width: 1266px) {
-		font-size: 125%;
-	}
-	@media (max-width: 1266px) {
-		font-size: 105%;
-	}
-	@media (max-width: 710px) {
-		font-size: 90%;
-	}
-	@media (max-width: 634px) {
-		font-size: 85%;
-	}
-	@media (max-width: 548px) {
-		font-size: 80%;
-	}
+	// @media (max-width: 1266px) {
+	// 	font-size: 125%;
+	// }
+	// @media (max-width: 1266px) {
+	// 	font-size: 105%;
+	// }
+	// @media (max-width: 710px) {
+	// 	font-size: 90%;
+	// }
+	// @media (max-width: 634px) {
+	// 	font-size: 85%;
+	// }
+	// @media (max-width: 548px) {
+	// 	font-size: 80%;
+	// }
 `
 const FlexContainer = styled.div`
 	display: flex;
@@ -58,7 +60,7 @@ const ButtonContainer = styled.div`
 `
 const ButtonBox = styled.div`
 	height: 18%;
-	width: 40%;
+	width: 55%;
 	padding-top: 1.8%;
 	padding-bottom: 1.8%;
 `
@@ -69,16 +71,17 @@ const Background = styled.div`
 	flex-direction: column;
 	border-radius: 0.94rem;
 	padding: 2% 0%;
+	padding-top: 4%;
 	margin-bottom: 2%;
 
-	@media (max-width: 740px) {
-		padding-top: 4%;
-		padding-bottom: 0;
-	}
-	@media (max-width: 480px) {
-		padding-top: 4%;
-		padding-bottom: 4%;
-	}
+	// @media (max-width: 740px) {
+	// 	padding-top: 4%;
+	// 	padding-bottom: 0;
+	// }
+	// @media (max-width: 480px) {
+	// 	padding-top: 4%;
+	// 	padding-bottom: 4%;
+	// }
 `
 const LightBackground = styled.div`
 	background-color: #EDEFEE;

@@ -58,34 +58,34 @@ const FlexContainer = styled.div`
 	}
 `
 const Image = styled.img`
-	width: ${ ({$hlight}) => $hlight ? '12%' : '70%'};
-	height: ${ ({$hlight}) => $hlight ? '12%' : '140%'};
+	width: ${ ({$hlight}) => $hlight ? '9%' : '70%'};
+	height: ${ ({$hlight}) => $hlight ? '9%' : '140%'};
 	border-radius: ${ ({$curve}) => $curve ? '5rem' : '0'};
 
-	@media (max-width: 1119px) {
-		width: ${ ({$hlight}) => $hlight ? '11%' : '100%'};
-		height: ${ ({$hlight}) => $hlight ? '11%' : '125%'};
-	}
-	@media (max-width: 1000px) {
-		width: ${ ({$hlight}) => $hlight ? '10%' : '100%'};
-		height: ${ ({$hlight}) => $hlight ? '10%' : '125%'};
-	}
-	@media (max-width: 740px) {
-		width: ${ ({$hlight}) => $hlight ? '12%' : '70%'};
-		height: ${ ({$hlight}) => $hlight ? '12%' : '125%'};
-	}
-	@media (max-width: 642px) {
-		width: ${ ({$hlight}) => $hlight ? '11%' : '70%'};
-		height: ${ ({$hlight}) => $hlight ? '11%' : '125%'};
-	}
-	@media (max-width: 597px) {
-		width: ${ ({$hlight}) => $hlight ? '10%' : '70%'};
-		height: ${ ({$hlight}) => $hlight ? '10%' : '125%'};
-	}
-	@media (max-width: 480px) {
-		width: ${ ({$hlight}) => $hlight ? '10%' : '100%'};
-		height: ${ ({$hlight}) => $hlight ? '10%' : '130%'};
-	}
+	// @media (max-width: 1119px) {
+	// 	width: ${ ({$hlight}) => $hlight ? '11%' : '100%'};
+	// 	height: ${ ({$hlight}) => $hlight ? '11%' : '125%'};
+	// }
+	// @media (max-width: 1000px) {
+	// 	width: ${ ({$hlight}) => $hlight ? '10%' : '100%'};
+	// 	height: ${ ({$hlight}) => $hlight ? '10%' : '125%'};
+	// }
+	// @media (max-width: 740px) {
+	// 	width: ${ ({$hlight}) => $hlight ? '12%' : '70%'};
+	// 	height: ${ ({$hlight}) => $hlight ? '12%' : '125%'};
+	// }
+	// @media (max-width: 642px) {
+	// 	width: ${ ({$hlight}) => $hlight ? '11%' : '70%'};
+	// 	height: ${ ({$hlight}) => $hlight ? '11%' : '125%'};
+	// }
+	// @media (max-width: 597px) {
+	// 	width: ${ ({$hlight}) => $hlight ? '10%' : '70%'};
+	// 	height: ${ ({$hlight}) => $hlight ? '10%' : '125%'};
+	// }
+	// @media (max-width: 480px) {
+	// 	width: ${ ({$hlight}) => $hlight ? '10%' : '100%'};
+	// 	height: ${ ({$hlight}) => $hlight ? '10%' : '130%'};
+	// }
 `
 const Head1 = styled.h1`
 	color: white;
@@ -94,21 +94,21 @@ const Head1 = styled.h1`
 const LightBackground = styled.div`
 	background-color: #EDEFEE;
 	height: 100%;
-	width: 16%;
-	border-radius: 1rem;
+	width: 25%;
+	border-radius: .5rem;
 	padding: 1% .5%;
 	margin-right: 1%;
 	margin-left: 1%;
 
-	@media (max-width: 1000px) {
-		width: 17%;
-	}
-	@media (max-width: 740px) {
-		width: 21%;
-	}
-	@media (max-width: 480px) {
-		width: 24%;
-	}
+	// @media (max-width: 1000px) {
+	// 	width: 17%;
+	// }
+	// @media (max-width: 740px) {
+	// 	width: 21%;
+	// }
+	// @media (max-width: 480px) {
+	// 	width: 24%;
+	// }
 `
 const Head3 = styled.h3`
 	margin: 0 0;
@@ -144,11 +144,11 @@ export default function Testimonial () {
 								<Image
 									$curve
 									style={{
-										width: '30%',
+										width: '60%',
 									}}
 									src={special.image} alt="my photo"
 								/>
-								<Head3 className="head3">{special.remark}</Head3>
+								{/* <Head3 className="head3">{special.remark}</Head3> */}
 							</FlexContainer>
 							<FlexContainer $NoVertAlign $noHorAlign $vertical $noPad>
 								<Head3 className="head3">{special.name} Said:</Head3>
