@@ -14,11 +14,7 @@ const specials = {
 			Calabar cuisine. Nestled in a cozy corner
 			of the city, our delightful eatery specializes
 			in fresh, simple, and delicious dishes that
-			highlight the best of Calabar flavors. With
-			a menu that features classic favorites like Afang,
-			White-soup, and a variety of delectable soups,
-			creonovo offers a culinary journey
-			that tantalizes the taste buds.`,
+			highlight the best of Calabar flavors. `,
 		delivery: "Order a delivery",
 		bookingTitie: 'Reserve a Table for any Occasion',
 	}
@@ -43,55 +39,55 @@ const CenterImage = styled.div`
 `
 const Head1 = styled.h1`
 	color: ${ ({$booking}) => $booking ? 'white' : '#F4CE14' };
-	font-size: ${ ({$booking}) => $booking ? '240%' : '200%' };
+	font-size: ${ ({$booking}) => $booking ? '100%' : '100%' };
 	text-align: ${ ({$booking}) => $booking ? 'center' : 'left' };
 	padding-bottom: ${ ({$booking}) => $booking ? '4.5%' : '0' };
 	padding-top: ${ ({$booking}) => $booking ? '2%' : '0' };
 	margin-bottom: 0;
 
-	@media (max-width: 1000px) {
-		font-size: ${ ({$booking}) => $booking ? '240%' : '175%' };
-	}
-	@media (max-width: 740px) {
-		font-size: ${ ({$booking}) => $booking ? '240%' : '140%' };
-	}
-	@media (max-width: 580px) {
-		font-size: ${ ({$booking}) => $booking ? '240%' : '120%' };
-	}
-	@media (max-width: 520px) {
-		font-size: ${ ({$booking}) => $booking ? '240%' : '90%' };
-	}
-	@media (max-width: 480px) {
-		font-size: ${ ({$booking}) => $booking ? '240%' : '80%' };
-	}
+	// @media (max-width: 1000px) {
+	// 	font-size: ${ ({$booking}) => $booking ? '240%' : '175%' };
+	// }
+	// @media (max-width: 740px) {
+	// 	font-size: ${ ({$booking}) => $booking ? '240%' : '140%' };
+	// }
+	// @media (max-width: 580px) {
+	// 	font-size: ${ ({$booking}) => $booking ? '240%' : '120%' };
+	// }
+	// @media (max-width: 520px) {
+	// 	font-size: ${ ({$booking}) => $booking ? '240%' : '90%' };
+	// }
+	// @media (max-width: 480px) {
+	// 	font-size: ${ ({$booking}) => $booking ? '240%' : '80%' };
+	// }
 `
 const Head2 = styled.h2`
-	font-size: 130%;
-	margin-bottom: ${ ({$booking}) => $booking ? '0' : '1' };
+	font-size: 60%;
+	margin-bottom: ${ ({$booking}) => $booking ? '0' : '0' };
 	color: white;
 
-	@media (max-width: 1000px) {
-		font-size: 120%;
-	}
-	@media (max-width: 740px) {
-		font-size: 100%;
-	}
-	@media (max-width: 580px) {
-		font-size: 80%;
-	}
-	@media (max-width: 550px) {
-		font-size: 80%;
-	}
-	@media (max-width: 480px) {
-		font-size: 70%;
-	}
+	// @media (max-width: 1000px) {
+	// 	font-size: 120%;
+	// }
+	// @media (max-width: 740px) {
+	// 	font-size: 100%;
+	// }
+	// @media (max-width: 580px) {
+	// 	font-size: 80%;
+	// }
+	// @media (max-width: 550px) {
+	// 	font-size: 80%;
+	// }
+	// @media (max-width: 480px) {
+	// 	font-size: 70%;
+	// }
 `
 const Paragraph = styled.p`
 	color: white;
 `
 const ButtonBox = styled.div`
 	height: 8%;
-	width: ${ ({$booking}) => $booking ? '12%' : '45%' };
+	width: ${ ({$booking}) => $booking ? '12%' : '60%' };
 	padding-top: ${ ({$booking}) => $booking ? '1.2%' : '0%' };
 	padding-bottom: ${ ({$booking}) => $booking ? '1.2%' : '0%' };
 	margin-left: ${ ({$booking}) => $booking ? '10%' : '0%' };
@@ -100,32 +96,33 @@ const Button = styled.button``
 const Background = styled.div`
 	padding-top: ${ ({$booking}) => $booking ? '1.5%' : '5%' };
 	display: ${ ({$booking}) => $booking ? 'grid' : 'flex'};
+	padding-bottom: ${ ({$booking}) => $booking ? '0' : '7%' };
 	margin-bottom: 6%;
 
-	@media (max-width: 1266px) {
-		padding-bottom: 4%;
-	}
-	@media (max-width: 1152px) {
-		padding-bottom: 6%;
-	}
-	@media (max-width: 1058px) {
-		padding-bottom: 8%;
-	}
-	@media (max-width: 1000px) {
-		padding-bottom: 4%;
-	}
-	@media (max-width: 914px) {
-		padding-bottom: 6%;
-	}
-	@media (max-width: 872px) {
-		padding-bottom: 8%;
-	}
-	@media (max-width: 678px) {
-		padding-bottom: 10%;
-	}
-	@media (max-width: 580px) {
-		padding-bottom: 5%;
-	}
+	// @media (max-width: 1266px) {
+	// 	padding-bottom: 4%;
+	// }
+	// @media (max-width: 1152px) {
+	// 	padding-bottom: 6%;
+	// }
+	// @media (max-width: 1058px) {
+	// 	padding-bottom: 8%;
+	// }
+	// @media (max-width: 1000px) {
+	// 	padding-bottom: 4%;
+	// }
+	// @media (max-width: 914px) {
+	// 	padding-bottom: 6%;
+	// }
+	// @media (max-width: 872px) {
+	// 	padding-bottom: 8%;
+	// }
+	// @media (max-width: 678px) {
+	// 	padding-bottom: 10%;
+	// }
+	// @media (max-width: 580px) {
+	// 	padding-bottom: 5%;
+	// }
 `
 export default function Hero (props) {
 	const navigate = useNavigate();

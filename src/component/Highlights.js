@@ -14,8 +14,7 @@ const specials = [
 						originating from the Efik and Ibibio people of
 						southern Nigeria, particularly from the Cross
 						River and Akwa Ibom states. It's a hearty and
-						nutritious soup made with a mix of leafy greens,
-						meats, and fish, typically served with a starchy
+						nutritious soup typically served with a starchy
 						side like fufu, pounded yam, or garri.`,
 		delivery: "Order a delivery",
 	},
@@ -26,10 +25,8 @@ const specials = [
 		description: `Edikang Ikong soup is another traditional
 						Nigerian dish from the southeastern region,
 						particularly among the Efik and Ibibio people
-						of Cross River and Akwa Ibom states. Known for
-						its rich and nutritious profile, this vegetable
-						soup is a staple in many Nigerian households and
-						is often served at festive occasions and
+						of Cross River and Akwa Ibom states. This
+						soup is often served at festive occasions and
 						celebrations.`,
 		delivery: "Order a delivery",
 	},
@@ -63,26 +60,26 @@ const GridContainer = styled.div`
 const Image = styled.img`
 	width: ${ ({$hlight})=> $hlight ? '100%' : '70%'};
 	height: ${ ({$hlight})=> $hlight ? '100%' : '140%'};
-	border-top-left-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
-	border-top-right-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
+	border-top-left-radius: ${ ({$hlight})=> $hlight ? '0.5rem' : '3.25rem'};
+	border-top-right-radius: ${ ({$hlight})=> $hlight ? '0.5rem' : '3.25rem'};
 	border-bottom-left-radius: ${ ({$hlight})=> $hlight ? '0' : '3.25rem'};
 	border-bottom-right-radius: ${ ({$hlight})=> $hlight ? '0' : '3.25rem'};
 
-	@media (max-width: 1000px) {
-		height: 125%;
-		border-top-left-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
-		border-top-right-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
-	}
-	@media (max-width: 740px) {
-		height: 125%;
-		border-top-left-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
-		border-top-right-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
-	}
-	@media (max-width: 480px) {
-		height: 130%;
-		border-top-left-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
-		border-top-right-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
-	}
+	// @media (max-width: 1000px) {
+	// 	height: 125%;
+	// 	border-top-left-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
+	// 	border-top-right-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
+	// }
+	// @media (max-width: 740px) {
+	// 	height: 125%;
+	// 	border-top-left-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
+	// 	border-top-right-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
+	// }
+	// @media (max-width: 480px) {
+	// 	height: 130%;
+	// 	border-top-left-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
+	// 	border-top-right-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
+	// }
 `
 const Head1 = styled.h1`
 	margin-bottom: 0;
@@ -96,13 +93,13 @@ const Button = styled.button``
 const LightBackground = styled.div`
 	background-color: #EDEFEE;
 	height: 100%;
-	width: 20%;
-	border-top-left-radius: 1.5rem;
-	border-top-right-radius: 1.5rem;
+	width: 27%;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
 	margin-right: 2%;
 	margin-left: 2%;
 
-	@media (max-width: 1000px) {
+	@media (max-width: 320px) {
 		padding-bottom: 1%;
 	}
 `

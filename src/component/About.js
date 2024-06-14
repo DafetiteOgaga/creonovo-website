@@ -18,7 +18,7 @@ const Image = styled.img`
 const Image2 = styled(Image)`
 	top: 30%;
 	left: 17%;
-	border-radius: 0.94rem;
+	border-radius: 0.5rem;
 	border-color: #495E57;
 	border-style: solid;
 	border-width: 2px;
@@ -27,7 +27,7 @@ const Head1 = styled.h1`
 	margin-bottom: 0;
 `
 const Head2 = styled.h2`
-	font-size: 180%;
+	// font-size: 180%;
 	margin-top: 0;
 `
 const Paragraph = styled.p`
@@ -35,15 +35,15 @@ const Paragraph = styled.p`
 `
 const OverlappingImagesContainer = styled.div`
 	position: relative;
-	width: 95%;
-	height: 100%;
+	width: auto;
+	height: auto;
 
-	@media (max-width: 1265px) {
-		width: 90%;
-	}
-	@media (max-width: 1000px) {
-		width: 80%;
-	}
+	// @media (max-width: 1265px) {
+	// 	width: 90%;
+	// }
+	// @media (max-width: 1000px) {
+	// 	width: 80%;
+	// }
 `
 const Background = styled.div`
 	background-color: #EDEFEE;

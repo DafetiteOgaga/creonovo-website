@@ -19,7 +19,7 @@ const NotFound = () => {
             <Background>
                 <h1 className='head1'><SpanText>Oopsy! 404</SpanText></h1>
                 <h2 style={{ color: 'white'}} className='head2'>Page Not Found</h2>
-                <h4>My contact details are in the footer (below)</h4>
+                <h4 className='head4'>My contact details are in the footer (below)</h4>
             </Background>
         </div>
     );

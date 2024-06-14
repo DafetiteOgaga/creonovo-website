@@ -11,6 +11,11 @@ const Background = styled.div`
 const SpanText = styled.span`
 	color: #F4CE14;
 `
+const FlexBox = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+`
 export default function ConfirmedBooking(props) {
 	const { submit } = useContext(BookingContext);
     return (
@@ -28,18 +33,18 @@ export default function ConfirmedBooking(props) {
 						gridGap: '2%',
 						padding: '10px',
 					}}>
-						<div>
+						<FlexBox>
 							<h3>Firstname: <SpanText>{submit.firstname}</SpanText></h3>
 							<h3>Lastname: <SpanText>{submit.lastname}</SpanText></h3>
 							<h3>Phone No.: <SpanText>{submit.contactNumber}</SpanText></h3>
 							<h3>Email: <SpanText>{submit.email}</SpanText></h3>
-						</div>
-						<div>
+						</FlexBox>
+						<FlexBox>
 							<h3>Date: <SpanText>{submit.date}</SpanText></h3>
 							<h3>Time: <SpanText>{submit.time}</SpanText></h3>
 							<h3>Number of Guest: <SpanText>{submit.noOfGuests}</SpanText></h3>
 							<h3>Occassion: <SpanText>{submit.occasion}</SpanText></h3>
-						</div>
+						</FlexBox>
 					</div>
 					<div>
 						<h3>Type: <SpanText>{submit.selectedOption}</SpanText></h3>

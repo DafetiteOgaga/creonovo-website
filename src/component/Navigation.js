@@ -3,7 +3,7 @@ import styled from'styled-components'
 
 const Navigations = styled.nav`
 	list-style-type: none;
-	padding-right: 6%;
+	padding-right: 17%;
 	display: flex;
 	text-align: end;
 `

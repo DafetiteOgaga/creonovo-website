@@ -9,6 +9,10 @@ import Home from './component/Home';
 import ConfirmedBooking from './component/ConfirmedBooking';
 import Logo from './component/Logo';
 
+import Hero from './component/Hero';
+import Highlights from './component/Highlights';
+import BookingForm from './component/BookingForm';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import styled from 'styled-components'
 
@@ -18,9 +22,9 @@ import styled from 'styled-components'
 
 
 const MainContainer = styled.main`
-  display: flex;
-  flex-direction: column;
-`
+//   display: flex;
+//   flex-direction: column;
+// `
 const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
@@ -28,15 +32,19 @@ const HeaderContainer = styled.header`
   padding-top: 1%;
   padding-bottom: 1%;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 320px) {
     flex-direction: column;
-    align-items: flex-end;
     place-items: center;
   }
-  @media (max-width: 480px) {
-      padding: 1% 3%;
-      font-size: 60%;
+  // @media (max-width: 1000px) {
+  //   flex-direction: column;
+  //   align-items: flex-end;
+  //   place-items: center;
   }
+  // @media (max-width: 480px) {
+  //     padding: 1% 3%;
+  //     font-size: 60%;
+  // }
 `
 
 const BodyContainer = styled.div``
@@ -57,6 +65,11 @@ function App() {
             <Route path="/testimonial" element={<Testimonial />} />
             <Route path="/confirmed" element={<ConfirmedBooking />} />
             <Route path="*" element={<NotFound />} />
+
+            <Route path="/hero" element={<Hero />} />
+            <Route path="/highlights" element={<Highlights />} />
+            <Route path="/booking-form" element={<BookingForm />} />
+
           </Routes>
         </BodyContainer>
         <Footer className='App'/>
