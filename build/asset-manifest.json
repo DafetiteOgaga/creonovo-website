@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7079d59a.css",
+    "main.js": "/static/js/main.2b122cd6.js",
+    "static/js/453.afbeff29.chunk.js": "/static/js/453.afbeff29.chunk.js",
+    "static/media/greekSalad.jpg": "/static/media/greekSalad.b3b48bb82fcaced0c858.jpg",
+    "static/media/heroPic.jpg": "/static/media/heroPic.8c18e3cf861cd4fa9d0a.jpg",
+    "static/media/dafetite.jpeg": "/static/media/dafetite.de43f13a40d007c93175.jpeg",
+    "static/media/afangSoup.jpg": "/static/media/afangSoup.57245cea1f07c466030f.jpg",
+    "static/media/atama.jpg": "/static/media/atama.9a3927562c00d62eb3c8.jpg",
+    "static/media/famous.jpg": "/static/media/famous.bad3f968a130628b1a17.jpg",
+    "static/media/mayor.jpg": "/static/media/mayor.64dac4e3e33657671d84.jpg",
+    "static/media/creonovo.png": "/static/media/creonovo.1bf04a6642512851900f.png",
+    "static/media/debby.jpg": "/static/media/debby.97a67e23aad5f01e2fae.jpg",
+    "static/media/footerLogo.png": "/static/media/footerLogo.6c2d2fab954ab1a9d444.png",
+    "static/media/paul.jpg": "/static/media/paul.066b8f42d4dbc0881562.jpg",
+    "static/media/fruit.png": "/static/media/fruit.fe2904a7c17277b79bf9.png",
+    "static/media/EdikangIkongSoup2.jpg": "/static/media/EdikangIkongSoup2.4bbfe60bded070a4afd4.jpg",
+    "static/media/star": "/static/media/star.b6f87847d1ef61cf8551",
+    "static/media/deliveryLogo.svg": "/static/media/deliveryLogo.edb24aa8f994b4ce4b2a14ddd6c9defc.svg",
+    "index.html": "/index.html",
+    "main.7079d59a.css.map": "/static/css/main.7079d59a.css.map",
+    "main.2b122cd6.js.map": "/static/js/main.2b122cd6.js.map",
+    "453.afbeff29.chunk.js.map": "/static/js/453.afbeff29.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7079d59a.css",
+    "static/js/main.2b122cd6.js"
+  ]
+}
