@@ -16,15 +16,8 @@ import BookingForm from './component/BookingForm';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import styled from 'styled-components'
 
-// import BookingForm from './component/BookingForm';
-// import Hero from './component/Hero';
-// import Highlights from './component/Highlights';
 
-
-const MainContainer = styled.main`
-//   display: flex;
-//   flex-direction: column;
-// `
+const MainContainer = styled.main``
 const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
@@ -36,15 +29,6 @@ const HeaderContainer = styled.header`
   @media (min-width: 480px) {
     flex-direction: row;
   }
-  // @media (max-width: 1000px) {
-  //   flex-direction: column;
-  //   align-items: flex-end;
-  //   place-items: center;
-  }
-  // @media (max-width: 480px) {
-  //     padding: 1% 3%;
-  //     font-size: 60%;
-  // }
 `
 
 const BodyContainer = styled.div``
@@ -59,7 +43,6 @@ function App() {
         <BodyContainer>
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/contact" element={<Contact />} /> */}
             <Route path="/booking-page" element={<BookingPage/>} />
             <Route path="/about" element={<About />} />
             <Route path="/testimonial" element={<Testimonial />} />
