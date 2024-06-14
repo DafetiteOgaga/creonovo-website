@@ -10,14 +10,6 @@ const FormStyle = styled.form`
 const Input = styled.input`
 	color: #444645;
 	width: 40%;
-	// height: 30%;
-	// @media (max-width: 1266px) {
-	// 	width: 50%;
-	// }
-	// @media (max-width: 584px) {
-	// 	width: 40%;
-	// 	height: 50%;
-	// }
 `
 const Label = styled.label`
 	color: #444645;
@@ -26,29 +18,17 @@ const Label = styled.label`
 
 	@media (min-width: 768px) {
 		font-size: 110%;
-		// padding-right: ${ ({$diff}) => ( $diff ? '11%' : '3%' )};
 	}
-	// @media (max-width: 1266px) {
-	// 	font-size: 105%;
-	// }
-	// @media (max-width: 710px) {
-	// 	font-size: 90%;
-	// }
-	// @media (max-width: 634px) {
-	// 	font-size: 85%;
-	// }
-	// @media (max-width: 548px) {
-	// 	font-size: 80%;
-	// }
+	@media (min-width: 1024px) {
+		font-size: 130%;
+		padding-right: ${ ({$diff}) => ( $diff ? '12%' : '3%' )};
+	}
 `
 const FlexContainer = styled.div`
 	display: flex;
-	// flex-direction: row;
 	flex-direction: column;
-	// justify-content: space-between;
 	flex-wrap: wrap;
 	align-content: center;
-	// gap: 4%;
 	padding-left: 2%;
 	padding-right: 2%;
 	margin-bottom: 1%;
@@ -86,20 +66,14 @@ const Background = styled.div`
 	background-color: #008080;
 	display: flex;
 	flex-direction: column;
-	// align-items: center;
 	border-radius: 0.94rem;
 	padding-top: 4%;
-	// margin-left: 3%;
 	margin-bottom: 2%;
 	width: 85%;
 
 	@media (min-width: 768px) {
 		width: 70%;
 	}
-	// @media (max-width: 480px) {
-	// 	padding-top: 4%;
-	// 	padding-bottom: 4%;
-	// }
 `
 const LightBackground = styled.div`
 	background-color: #EDEFEE;
