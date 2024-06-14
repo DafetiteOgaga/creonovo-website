@@ -39,48 +39,14 @@ const CenterImage = styled.div`
 `
 const Head1 = styled.h1`
 	color: ${ ({$booking}) => $booking ? 'white' : '#F4CE14' };
-	// font-size: ${ ({$booking}) => $booking ? '100%' : '100%' };
 	text-align: ${ ({$booking}) => $booking ? 'center' : 'left' };
 	padding-bottom: ${ ({$booking}) => $booking ? '4.5%' : '0' };
 	padding-top: ${ ({$booking}) => $booking ? '2%' : '0' };
 	margin-bottom: 0;
-
-	// @media (min-width: 768px) {
-	// 	font-size: ${ ({$booking}) => $booking ? '120%' : '120%' };
-	// }
-	// @media (max-width: 740px) {
-	// 	font-size: ${ ({$booking}) => $booking ? '240%' : '140%' };
-	// }
-	// @media (max-width: 580px) {
-	// 	font-size: ${ ({$booking}) => $booking ? '240%' : '120%' };
-	// }
-	// @media (max-width: 520px) {
-	// 	font-size: ${ ({$booking}) => $booking ? '240%' : '90%' };
-	// }
-	// @media (max-width: 480px) {
-	// 	font-size: ${ ({$booking}) => $booking ? '240%' : '80%' };
-	// }
 `
 const Head2 = styled.h2`
-	// font-size: 60%;
 	margin-bottom: ${ ({$booking}) => $booking ? '0' : '0' };
 	color: white;
-
-	// @media (min-width: 480px) {
-	// 	font-size: 70%;
-	// }
-	// @media (max-width: 740px) {
-	// 	font-size: 100%;
-	// }
-	// @media (max-width: 580px) {
-	// 	font-size: 80%;
-	// }
-	// @media (max-width: 550px) {
-	// 	font-size: 80%;
-	// }
-	// @media (max-width: 480px) {
-	// 	font-size: 70%;
-	// }
 `
 const Paragraph = styled.p`
 	color: white;
@@ -107,30 +73,6 @@ const Background = styled.div`
 		padding-bottom: 0;
 		margin-bottom: 10%;
 	}
-	// @media (min-width: 768px) {
-	// 	margin-bottom: 6%;
-	// }
-	// @media (max-width: 1152px) {
-	// 	padding-bottom: 6%;
-	// }
-	// @media (max-width: 1058px) {
-	// 	padding-bottom: 8%;
-	// }
-	// @media (max-width: 1000px) {
-	// 	padding-bottom: 4%;
-	// }
-	// @media (max-width: 914px) {
-	// 	padding-bottom: 6%;
-	// }
-	// @media (max-width: 872px) {
-	// 	padding-bottom: 8%;
-	// }
-	// @media (max-width: 678px) {
-	// 	padding-bottom: 10%;
-	// }
-	// @media (max-width: 580px) {
-	// 	padding-bottom: 5%;
-	// }
 `
 export default function Hero (props) {
 	const navigate = useNavigate();

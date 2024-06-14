@@ -63,22 +63,6 @@ const Image = styled.img`
 	border-top-right-radius: ${ ({$hlight})=> $hlight ? '0.5rem' : '3.25rem'};
 	border-bottom-left-radius: ${ ({$hlight})=> $hlight ? '0' : '3.25rem'};
 	border-bottom-right-radius: ${ ({$hlight})=> $hlight ? '0' : '3.25rem'};
-
-	// @media (max-width: 1000px) {
-	// 	height: 125%;
-	// 	border-top-left-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
-	// 	border-top-right-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
-	// }
-	// @media (max-width: 740px) {
-	// 	height: 125%;
-	// 	border-top-left-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
-	// 	border-top-right-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
-	// }
-	// @media (max-width: 480px) {
-	// 	height: 130%;
-	// 	border-top-left-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
-	// 	border-top-right-radius: ${ ({$hlight})=> $hlight ? '1.5rem' : '3.25rem'};
-	// }
 `
 const Head1 = styled.h1`
 	margin-bottom: 0;

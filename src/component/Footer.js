@@ -21,28 +21,17 @@ const LogoImage = styled.img`
 	height: 40px;
 
 	@media (min-width: 480px) {
-		// padding-top: 3.5%;
 		height: 46px;
 	}
 	@media (min-width: 768px) {
-		// padding-top: 3.5%;
 		height: 65px;
 	}
 	@media (min-width: 1024px) {
-		// padding-top: 3.5%;
 		height: 70px;
 	}
 	@media (min-width: 1200px) {
-		// padding-top: 3.5%;
 		height: 80px;
 	}
-	// @media (max-width: 740px) {
-	// 	padding-top: 4%;
-	// }
-	// @media (max-width: 480px) {
-	// 	padding-top: 3%;
-	// 	height: 28px;
-	// }
 `
 export default function Footer () {
 	return (
@@ -63,7 +52,6 @@ export default function Footer () {
 					
 					<div>
 						<p className='paragraph'>
-							{/* <span>Social media:</span><br></br><br></br> */}
 							<span><a href='https://github.com/DafetiteOgaga'>GitHub</a></span><br></br>
 							<span><a href='https://www.linkedin.com/in/ogagadafetite/'>LinkedIn</a></span><br></br>
 							<span><a href='https://x.com/dafetite_ogaga'>X (Twitter)</a></span><br></br>
@@ -87,8 +75,6 @@ export default function Footer () {
 						</p>
 					</div>
 				</GridContainer>
-				
-				
 			</FooterContainer>
 			</>
 			<MonthandYear /><br></br>

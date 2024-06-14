@@ -27,7 +27,6 @@ const Head1 = styled.h1`
 	margin-bottom: 0;
 `
 const Head2 = styled.h2`
-	// font-size: 180%;
 	margin-top: 0;
 `
 const Paragraph = styled.p`
@@ -37,13 +36,6 @@ const OverlappingImagesContainer = styled.div`
 	position: relative;
 	width: auto;
 	height: auto;
-
-	// @media (max-width: 1265px) {
-	// 	width: 90%;
-	// }
-	// @media (max-width: 1000px) {
-	// 	width: 80%;
-	// }
 `
 const Background = styled.div`
 	background-color: #EDEFEE;
