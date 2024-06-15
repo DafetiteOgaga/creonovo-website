@@ -43,6 +43,7 @@ const Head1 = styled.h1`
 	padding-bottom: ${ ({$booking}) => $booking ? '4.5%' : '0' };
 	padding-top: ${ ({$booking}) => $booking ? '2%' : '0' };
 	margin-bottom: 0;
+	// font-family: 'Karla', sans-serif;
 `
 const Head2 = styled.h2`
 	margin-bottom: ${ ({$booking}) => $booking ? '0' : '0' };
