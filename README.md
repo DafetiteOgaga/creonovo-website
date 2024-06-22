@@ -1,4 +1,4 @@
-## Click here to [view](https://creonovo-restaurant.web.app/) this website
+## Click [here](https://creonovo-restaurant.web.app/) to visit this website
 
 ### creonovo-website and README were auto created using createRepo command in [*Custom Commands*](https://github.com/DafetiteOgaga/custom_commands)
 
